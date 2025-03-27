@@ -1,13 +1,13 @@
-**A/B Testing: Website Theme Performance Analysis
+**A/B Testing: Website Theme Performance Analysis**
 
-Overview
-**
+**Overview**
+
 This project analyzes the impact of Light Theme and Dark Theme on key website performance metrics using A/B testing. The goal is to determine whether a particular theme leads to better engagement and conversion rates.
 
 **Dataset**
 
-The dataset consists of 1000 entries with the following features:
-
+**The dataset consists of 1000 entries with the following features:
+**
 Theme: Light Theme or Dark Theme
 
 Click Through Rate (CTR): Percentage of users clicking on links
