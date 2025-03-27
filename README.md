@@ -6,8 +6,8 @@ This project analyzes the impact of Light Theme and Dark Theme on key website pe
 
 **Dataset**
 
-**The dataset consists of 1000 entries with the following features:
-**
+**The dataset consists of 1000 entries with the following features:**
+
 Theme: Light Theme or Dark Theme
 
 Click Through Rate (CTR): Percentage of users clicking on links
@@ -28,26 +28,26 @@ Purchases: Whether a purchase was made (Yes/No)
 
 Added_to_Cart: Whether an item was added to the cart (Yes/No)
 
-**Methodology
-**
-**1. Data Cleaning & Exploration
-**
+**Methodology**
+
+**1. Data Cleaning & Exploration**
+
 Checked for missing values (none found)
 
 Summarized key statistics
 
 Visualized distributions of CTR, conversion rates, and session durations
 
-**2. Data Visualization
-**
+**2. Data Visualization**
+
 Scatter Plots: CTR vs. Conversion Rate
 
 Histograms: Click-Through and Conversion Rate distributions
 
 Box Plots: Bounce Rate comparison
 
-**3. Statistical Testing
-**
+**3. Statistical Testing**
+
 A/B Testing for Purchases
 
 Used proportion z-test to compare conversion rates:
@@ -68,16 +68,16 @@ Dark Theme Avg: 919.48s
 
 p-value = 0.7243 → No significant difference
 
-**Conclusion
-**
+**Conclusion**
+
 There is no statistically significant difference between Light and Dark themes in terms of conversion rate, session duration, and purchase behavior.
 
 Other factors such as user preferences, device type, and accessibility should be considered before making a final decision.
 
 Further testing with a larger sample size or additional A/B test parameters is recommended.
 
-**Dependencies
-**
+**Dependencies**
+
 pandas
 
 plotly
@@ -92,8 +92,8 @@ scipy
 
 pip install pandas plotly statsmodels scipy
 
-**Run the script:
-**
+**Run the script:**
+
 python ab_test_analysis.py
 
 **Future Improvements**
